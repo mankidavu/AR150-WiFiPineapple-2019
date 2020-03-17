@@ -16,9 +16,9 @@ Summary for 2.6.x:
 5. Fix LAN and WAN ports. No more swapped ports.
 
 Summary for 2.7.x:
-1. Rootfs 1.1M
+1. Rootfs 1.5M
 2. PineAP(d) working.
-3. Drivers for: kmod-rt2800, kmod-rtl8187 and kmod-rtl8192cu (TL-WN7200ND, AWUS036H, based on RT5370, etc)
+3. Drivers for: kmod-rt2800, kmod-rtl8187, kmod-rtl8192cu and others (TL-WN7200ND, AWUS036H, based on RT5370, etc)
 4. Kernel 4.14.171
 5. Fix LAN and WAN ports. No more swapped ports.
 
