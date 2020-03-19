@@ -15,6 +15,13 @@ Summary for 2.6.x:
 4. Kernel 4.14.134
 5. Fix LAN and WAN ports. No more swapped ports.
 
+Summary for 2.7.x:
+1. Rootfs 1.5M
+2. PineAP(d) working.
+3. Drivers for: kmod-rt2800, kmod-rtl8187, kmod-rtl8192cu and others (TL-WN7200ND, AWUS036H, based on RT5370, etc)
+4. Kernel 4.14.171
+5. Fix LAN and WAN ports. No more swapped ports.
+
 Recomended setup
 1. USB 2.0 2 ports hub https://www.ebay.co.uk/itm/USB-2-0-2-Dual-Port-Hub-For-Laptop-Macbook-Notebook-PC-Mouse-Flash-Disk/273070654192
 2. Generic RT5370 adapter
