@@ -1,5 +1,5 @@
 --- /dev/null
-+++ b/target/linux/ar71xx/patches-4.14/222-kernel-branch-likely-74kc.patch
++++ b/target/linux/ar71xx/patches-4.14/222-kernel-branch-likely-24kc.patch
 @@ -0,0 +1,14 @@
 +--- a/arch/mips/Makefile
 ++++ b/arch/mips/Makefile
@@ -8,7 +8,7 @@
 + # crossformat linking we rely on the elf2ecoff tool for format conversion.
 + #
 +-cflags-y			+= -G 0 -mno-abicalls -fno-pic -pipe -mno-branch-likely
-++cflags-y			+= -march=74kc -mno-dspr2 -mno-abicalls -fno-pic -pipe -mno-branch-likely -mno-mips16 -mno-interlink-compressed -msym32 -fno-caller-saves -fomit-frame-pointer -mframe-header-opt
+++cflags-y			+= -march=24kc -mno-abicalls -fno-pic -pipe -mno-branch-likely -mno-mips16 -mno-interlink-compressed -msym32 -fno-caller-saves -fomit-frame-pointer -mframe-header-opt
 + cflags-y			+= -msoft-float
 +-LDFLAGS_vmlinux			+= -G 0 -static -n -nostdlib
 ++LDFLAGS_vmlinux			+= -static -n -nostdlib --gc-sections
